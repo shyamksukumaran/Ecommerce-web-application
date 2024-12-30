@@ -10,7 +10,7 @@ const res = require("express/lib/response");
 
   
 
-const userSignup = async(req,res)=>{
+const userSignup = async(req,res)=>{ 
     try {
         // 1. Extract User details from the request body 
         const {name, email, phone, password} = req.body
